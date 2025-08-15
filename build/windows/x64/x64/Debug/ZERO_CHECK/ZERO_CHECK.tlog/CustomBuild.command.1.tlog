@@ -1,0 +1,10 @@
+^E:\SOFTWARE\CODE\FLUTTERCODE\QC_APP_FLOW\BUILD\WINDOWS\X64\CMAKEFILES\F75B981172AE1D91B02FE23A7638FA07\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/SoftWare/code/Fluttercode/qc_app_flow/windows -BE:/SoftWare/code/Fluttercode/qc_app_flow/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/SoftWare/code/Fluttercode/qc_app_flow/build/windows/x64/qc_app_flow.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

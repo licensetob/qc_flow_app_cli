@@ -1,0 +1,28 @@
+^E:\SOFTWARE\CODE\FLUTTERCODE\QC_APP_FLOW\BUILD\WINDOWS\X64\CMAKEFILES\BF875100A5F7AF555C7D8DDD2B496B93\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=E:\ProGrameData\Cache\FvmCache\versions\3.32.8 PROJECT_DIR=E:\SoftWare\code\Fluttercode\qc_app_flow FLUTTER_ROOT=E:\ProGrameData\Cache\FvmCache\versions\3.32.8 FLUTTER_EPHEMERAL_DIR=E:\SoftWare\code\Fluttercode\qc_app_flow\windows\flutter\ephemeral PROJECT_DIR=E:\SoftWare\code\Fluttercode\qc_app_flow FLUTTER_TARGET=E:\SoftWare\code\Fluttercode\qc_app_flow\lib\main.dart DART_DEFINES=RkxVVFRFUl9WRVJTSU9OPTMuMzIuOA==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049ZWRhZGE3YzU2ZQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049ZWYwY2QwMDA5MQ==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My44LjE= DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=E:\SoftWare\code\Fluttercode\qc_app_flow\.dart_tool\package_config.json E:/ProGrameData/Cache/FvmCache/versions/3.32.8/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\SOFTWARE\CODE\FLUTTERCODE\QC_APP_FLOW\BUILD\WINDOWS\X64\CMAKEFILES\B8C790D26E28749E8EB80D7C3166FE12\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\SOFTWARE\CODE\FLUTTERCODE\QC_APP_FLOW\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/SoftWare/code/Fluttercode/qc_app_flow/windows -BE:/SoftWare/code/Fluttercode/qc_app_flow/build/windows/x64 --check-stamp-file E:/SoftWare/code/Fluttercode/qc_app_flow/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
