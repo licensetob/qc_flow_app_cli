@@ -1,0 +1,1 @@
+export 'qc_text_utils/qc_text_utils.dart';

@@ -7,11 +7,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../storage/storage_service.dart';
-import '../storage/hive_service.dart';
-import '../network/http_service.dart';
-import '../theme/theme_controller.dart';
-import '../utils/logger.dart';
+import '../../storage/storage_service.dart';
+import '../../storage/hive_service.dart';
+import '../../theme/theme_controller.dart';
+import '../../utils/logger.dart';
 
 class AppInitializer {
   // 初始化应用的各个服务
@@ -34,9 +33,9 @@ class AppInitializer {
       Logger.i('HiveService initialized');
       
       // 初始化网络服务
-      final httpService = HttpService();
-      await httpService.init();
-      Logger.i('HttpService initialized');
+      // final httpService = HttpService();
+      // await httpService.init();
+      // Logger.i('HttpService initialized');
 
       // 先注入HiveService和StorageService
       Get.put(hiveService);

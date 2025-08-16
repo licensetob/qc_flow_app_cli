@@ -24,7 +24,7 @@ events:
       The output was:
       0
       閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-      鐢熸垚鍚姩鏃堕棿涓?2025/8/15 17:16:31銆?
+      鐢熸垚鍚姩鏃堕棿涓?2025/8/16 23:10:27銆?
       
       鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\SoftWare\\code\\Fluttercode\\qc_app_flow\\build\\windows\\x64\\CMakeFiles\\3.29.5-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 涓鍛?
           0 涓敊璇?
       
-      宸茬敤鏃堕棿 00:00:01.55
+      宸茬敤鏃堕棿 00:00:02.02
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -72,8 +72,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/SoftWare/code/Fluttercode/qc_app_flow/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-2zc9eu"
-      binary: "E:/SoftWare/code/Fluttercode/qc_app_flow/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-2zc9eu"
+      source: "E:/SoftWare/code/Fluttercode/qc_app_flow/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-oj8cfx"
+      binary: "E:/SoftWare/code/Fluttercode/qc_app_flow/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-oj8cfx"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -83,40 +83,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/SoftWare/code/Fluttercode/qc_app_flow/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-2zc9eu'
+        Change Dir: 'E:/SoftWare/code/Fluttercode/qc_app_flow/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-oj8cfx'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8bef3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_50e0e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-        鐢熸垚鍚姩鏃堕棿涓?2025/8/15 17:16:33銆?
+        鐢熸垚鍚姩鏃堕棿涓?2025/8/16 23:10:30銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\SoftWare\\code\\Fluttercode\\qc_app_flow\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-2zc9eu\\cmTC_8bef3.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\SoftWare\\code\\Fluttercode\\qc_app_flow\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-oj8cfx\\cmTC_50e0e.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_8bef3.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_50e0e.dir\\Debug\\鈥濄€?
           宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淓:\\SoftWare\\code\\Fluttercode\\qc_app_flow\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-2zc9eu\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_8bef3.dir\\Debug\\cmTC_8bef3.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\SoftWare\\code\\Fluttercode\\qc_app_flow\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-oj8cfx\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_50e0e.dir\\Debug\\cmTC_50e0e.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_8bef3.dir\\Debug\\cmTC_8bef3.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_8bef3.dir\\Debug\\cmTC_8bef3.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_50e0e.dir\\Debug\\cmTC_50e0e.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_50e0e.dir\\Debug\\cmTC_50e0e.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8bef3.dir\\Debug\\\\" /Fd"cmTC_8bef3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_50e0e.dir\\Debug\\\\" /Fd"cmTC_50e0e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8bef3.dir\\Debug\\\\" /Fd"cmTC_8bef3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_50e0e.dir\\Debug\\\\" /Fd"cmTC_50e0e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SoftWare\\code\\Fluttercode\\qc_app_flow\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-2zc9eu\\Debug\\cmTC_8bef3.exe" /INCREMENTAL /ILK:"cmTC_8bef3.dir\\Debug\\cmTC_8bef3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SoftWare/code/Fluttercode/qc_app_flow/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-2zc9eu/Debug/cmTC_8bef3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SoftWare/code/Fluttercode/qc_app_flow/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-2zc9eu/Debug/cmTC_8bef3.lib" /MACHINE:X64  /machine:x64 cmTC_8bef3.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_8bef3.vcxproj -> E:\\SoftWare\\code\\Fluttercode\\qc_app_flow\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-2zc9eu\\Debug\\cmTC_8bef3.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SoftWare\\code\\Fluttercode\\qc_app_flow\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-oj8cfx\\Debug\\cmTC_50e0e.exe" /INCREMENTAL /ILK:"cmTC_50e0e.dir\\Debug\\cmTC_50e0e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SoftWare/code/Fluttercode/qc_app_flow/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-oj8cfx/Debug/cmTC_50e0e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SoftWare/code/Fluttercode/qc_app_flow/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-oj8cfx/Debug/cmTC_50e0e.lib" /MACHINE:X64  /machine:x64 cmTC_50e0e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_50e0e.vcxproj -> E:\\SoftWare\\code\\Fluttercode\\qc_app_flow\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-oj8cfx\\Debug\\cmTC_50e0e.exe
         FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_8bef3.dir\\Debug\\cmTC_8bef3.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_8bef3.dir\\Debug\\cmTC_8bef3.tlog\\cmTC_8bef3.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淓:\\SoftWare\\code\\Fluttercode\\qc_app_flow\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-2zc9eu\\cmTC_8bef3.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_50e0e.dir\\Debug\\cmTC_50e0e.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_50e0e.dir\\Debug\\cmTC_50e0e.tlog\\cmTC_50e0e.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\SoftWare\\code\\Fluttercode\\qc_app_flow\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-oj8cfx\\cmTC_50e0e.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
         
         宸叉垚鍔熺敓鎴愩€?
             0 涓鍛?
             0 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:01.14
+        宸茬敤鏃堕棿 00:00:01.34
         
       exitCode: 0
   -

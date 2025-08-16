@@ -7,7 +7,6 @@
 
 import 'package:get/get.dart';
 import '../../core/base/base_controller.dart';
-import '../../core/network/http_service.dart';
 import '../../core/theme/theme_controller.dart';
 import '../../core/i18n/translation_service.dart';
 
@@ -22,15 +21,15 @@ class HomeController extends BaseController {
 
   @override
   Future<void> fetchData() async {
-    try {
-      final response = await HttpService().get('/api/demo');
-      final data = response.data['data'] as List;
-      items.assignAll(data.cast<Map<String, dynamic>>());
-      isEmpty.value = items.isEmpty;
-    } catch (e) {
-      isEmpty.value = true;
-      rethrow;
-    }
+    // try {
+    //   final response = await HttpService().get('/api/demo');
+    //   final data = response.data['data'] as List;
+    //   items.assignAll(data.cast<Map<String, dynamic>>());
+    //   isEmpty.value = items.isEmpty;
+    // } catch (e) {
+    //   isEmpty.value = true;
+    //   rethrow;
+    // }
   }
 
   void toggleTheme() {

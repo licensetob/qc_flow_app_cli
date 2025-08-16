@@ -7,6 +7,7 @@
       "name": "qc_app_flow",
       "version": "1.0.0+1",
       "dependencies": [
+        "archive",
         "bot_toast",
         "cupertino_icons",
         "dio",
@@ -20,8 +21,12 @@
         "get",
         "hive_ce",
         "hive_ce_flutter",
+        "http",
+        "path",
         "path_provider",
         "qc_app_flow_base_animatablewidget",
+        "qc_app_flow_network",
+        "qc_app_flow_utils",
         "shared_preferences"
       ],
       "devDependencies": [
@@ -65,6 +70,30 @@
       ]
     },
     {
+      "name": "path",
+      "version": "1.9.1",
+      "dependencies": []
+    },
+    {
+      "name": "archive",
+      "version": "4.0.7",
+      "dependencies": [
+        "crypto",
+        "path",
+        "posix"
+      ]
+    },
+    {
+      "name": "http",
+      "version": "1.5.0",
+      "dependencies": [
+        "async",
+        "http_parser",
+        "meta",
+        "web"
+      ]
+    },
+    {
       "name": "flutter_localizations",
       "version": "0.0.0",
       "dependencies": [
@@ -77,6 +106,20 @@
         "meta",
         "path",
         "vector_math"
+      ]
+    },
+    {
+      "name": "qc_app_flow_utils",
+      "version": "0.0.1",
+      "dependencies": [
+        "flutter"
+      ]
+    },
+    {
+      "name": "qc_app_flow_network",
+      "version": "0.0.1",
+      "dependencies": [
+        "flutter"
       ]
     },
     {
@@ -351,11 +394,6 @@
       ]
     },
     {
-      "name": "path",
-      "version": "1.9.1",
-      "dependencies": []
-    },
-    {
       "name": "matcher",
       "version": "0.12.17",
       "dependencies": [
@@ -382,6 +420,37 @@
       ]
     },
     {
+      "name": "posix",
+      "version": "6.0.3",
+      "dependencies": [
+        "ffi",
+        "meta",
+        "path"
+      ]
+    },
+    {
+      "name": "crypto",
+      "version": "3.0.6",
+      "dependencies": [
+        "typed_data"
+      ]
+    },
+    {
+      "name": "web",
+      "version": "1.1.1",
+      "dependencies": []
+    },
+    {
+      "name": "http_parser",
+      "version": "4.1.2",
+      "dependencies": [
+        "collection",
+        "source_span",
+        "string_scanner",
+        "typed_data"
+      ]
+    },
+    {
       "name": "intl",
       "version": "0.20.2",
       "dependencies": [
@@ -401,18 +470,6 @@
       "name": "isolate_channel",
       "version": "0.2.2+1",
       "dependencies": []
-    },
-    {
-      "name": "web",
-      "version": "1.1.1",
-      "dependencies": []
-    },
-    {
-      "name": "crypto",
-      "version": "3.0.6",
-      "dependencies": [
-        "typed_data"
-      ]
     },
     {
       "name": "shared_preferences_windows",
@@ -515,16 +572,6 @@
       "dependencies": []
     },
     {
-      "name": "http_parser",
-      "version": "4.1.2",
-      "dependencies": [
-        "collection",
-        "source_span",
-        "string_scanner",
-        "typed_data"
-      ]
-    },
-    {
       "name": "path_provider_windows",
       "version": "2.3.0",
       "dependencies": [
@@ -573,6 +620,11 @@
     {
       "name": "sky_engine",
       "version": "0.0.0",
+      "dependencies": []
+    },
+    {
+      "name": "ffi",
+      "version": "2.1.4",
       "dependencies": []
     },
     {
@@ -625,11 +677,6 @@
     {
       "name": "sprintf",
       "version": "7.0.0",
-      "dependencies": []
-    },
-    {
-      "name": "ffi",
-      "version": "2.1.4",
       "dependencies": []
     },
     {

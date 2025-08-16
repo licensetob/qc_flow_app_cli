@@ -78,6 +78,7 @@ class ThemeController extends GetxController {
     } else {
       themeMode.value = ThemeMode.light;
     }
+     
     // 保存主题设置到Hive存储
     saveTheme();
   }
@@ -114,4 +115,6 @@ class ThemeController extends GetxController {
   Color get primaryColor =>
       Get.isDarkMode ? darkTheme.primaryColor : lightTheme.primaryColor;
   Color get textColor => Get.isDarkMode ? Colors.white : Colors.black87;
+
+  
 }

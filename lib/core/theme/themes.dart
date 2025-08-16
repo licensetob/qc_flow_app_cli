@@ -38,3 +38,12 @@ final ThemeData darkTheme = ThemeData(
     foregroundColor: Colors.white,
   ),
 );
+
+
+extension ThemeDataExtension on ThemeData {
+  Color get getTextColor {
+    return textTheme.bodyLarge?.color ?? Colors.white;
+  }
+
+
+}

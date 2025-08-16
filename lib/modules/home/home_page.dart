@@ -9,6 +9,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:qc_app_flow/core/base/base_get_view_v.dart';
 import 'package:qc_app_flow_base_animatablewidget/qc_app_flow_textbutton/textbutton.dart';
+import 'package:qc_app_flow_utils/qc_app_flow_utils.dart';
+import '../../android_sdk_installer_example.dart';
 import 'home_controller.dart';
 
 // ignore: must_be_immutable
@@ -19,8 +21,14 @@ class HomePage extends BaseGetViewV<HomeController> {
 
   @override
   void onInitBefore() {
-    textButton.onClick(() => debugPrint("object"));
-    // controller.loadData();
+    textButton.onClick(() {
+      print(QcTextUtils.extraction.getTextBetween("你好世界", "你", "界"));
+      textButton.setHeight(100);
+      textButton.setText("新的文本");
+      textButton.setTextSize(20);
+      textButton.setWidth(100);
+    });
+    controller.fetchData();
   }
 
   @override
@@ -49,7 +57,7 @@ class HomePage extends BaseGetViewV<HomeController> {
 
   @override
   Widget buildPageContent(BuildContext context) {
-    return Center(child: Stack(children: [textButton.build(context)]));
+    return Center(child: Stack(children: [textButton.build(context),AndroidSdkInstallerExample()]));
   }
 
   bool onClose() {

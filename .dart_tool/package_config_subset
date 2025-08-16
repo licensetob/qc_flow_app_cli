@@ -1,3 +1,7 @@
+archive
+3.0
+file:///C:/Users/18439/AppData/Local/Pub/Cache/hosted/pub.dev/archive-4.0.7/
+file:///C:/Users/18439/AppData/Local/Pub/Cache/hosted/pub.dev/archive-4.0.7/lib/
 async
 3.4
 file:///C:/Users/18439/AppData/Local/Pub/Cache/hosted/pub.dev/async-2.13.0/
@@ -94,6 +98,10 @@ hive_ce_flutter
 3.0
 file:///C:/Users/18439/AppData/Local/Pub/Cache/hosted/pub.dev/hive_ce_flutter-2.3.1/
 file:///C:/Users/18439/AppData/Local/Pub/Cache/hosted/pub.dev/hive_ce_flutter-2.3.1/lib/
+http
+3.4
+file:///C:/Users/18439/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.5.0/
+file:///C:/Users/18439/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.5.0/lib/
 http_parser
 3.4
 file:///C:/Users/18439/AppData/Local/Pub/Cache/hosted/pub.dev/http_parser-4.1.2/
@@ -186,6 +194,10 @@ plugin_platform_interface
 3.0
 file:///C:/Users/18439/AppData/Local/Pub/Cache/hosted/pub.dev/plugin_platform_interface-2.1.8/
 file:///C:/Users/18439/AppData/Local/Pub/Cache/hosted/pub.dev/plugin_platform_interface-2.1.8/lib/
+posix
+3.0
+file:///C:/Users/18439/AppData/Local/Pub/Cache/hosted/pub.dev/posix-6.0.3/
+file:///C:/Users/18439/AppData/Local/Pub/Cache/hosted/pub.dev/posix-6.0.3/lib/
 shared_preferences
 3.5
 file:///C:/Users/18439/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences-2.5.3/
@@ -294,4 +306,12 @@ qc_app_flow_base_animatablewidget
 3.8
 file:///E:/SoftWare/code/Fluttercode/qc_app_flow/plugin/qc_app_flow_base_animatablewidget/
 file:///E:/SoftWare/code/Fluttercode/qc_app_flow/plugin/qc_app_flow_base_animatablewidget/lib/
+qc_app_flow_network
+3.8
+file:///E:/SoftWare/code/Fluttercode/qc_app_flow/plugin/qc_app_flow_network/
+file:///E:/SoftWare/code/Fluttercode/qc_app_flow/plugin/qc_app_flow_network/lib/
+qc_app_flow_utils
+3.8
+file:///E:/SoftWare/code/Fluttercode/qc_app_flow/plugin/qc_app_flow_utils/
+file:///E:/SoftWare/code/Fluttercode/qc_app_flow/plugin/qc_app_flow_utils/lib/
 2

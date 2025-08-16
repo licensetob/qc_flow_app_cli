@@ -58,8 +58,16 @@ dependencies:
   #本地库引入
   qc_app_flow_base_animatablewidget:
     path: plugin/qc_app_flow_base_animatablewidget
+  qc_app_flow_network:
+    path: plugin/qc_app_flow_network
+  qc_app_flow_utils:
+    path: plugin/qc_app_flow_utils
   flutter_localizations:
     sdk: flutter
+  http: ^1.5.0
+  archive: ^4.0.7
+  path: ^1.9.1
+
 
 
   #

@@ -19,7 +19,6 @@ abstract class BaseController extends GetxController {
   void initData() {
     // 子类实现数据初始化逻辑
   }  
-
   // 加载数据
   Future<void> loadData() async {
     try {

@@ -9,7 +9,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:qc_app_flow/init/application.dart';
-import 'core/config/app_initializer.dart';
+import 'core/config/initconfig/app_initializer.dart';
 import 'dart:async';
 
 void main() {

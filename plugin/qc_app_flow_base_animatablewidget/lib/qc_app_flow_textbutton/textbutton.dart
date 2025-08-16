@@ -75,6 +75,7 @@ class QcFlowTextButton extends QcFlowBaseAnimatableWidget
   @override
   Widget buildChild(BuildContext context) {
     return Obx(() {
+      print("是否被刷新");
       return TextButton(
         onPressed: _controller.onPressed,
         style: TextButton.styleFrom(
