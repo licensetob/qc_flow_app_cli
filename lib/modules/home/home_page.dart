@@ -10,7 +10,6 @@ import 'package:get/get.dart';
 import 'package:qc_app_flow/core/base/base_get_view_v.dart';
 import 'package:qc_app_flow_base_animatablewidget/qc_app_flow_textbutton/textbutton.dart';
 import 'package:qc_app_flow_utils/qc_app_flow_utils.dart';
-import '../../android_sdk_installer_example.dart';
 import 'home_controller.dart';
 
 // ignore: must_be_immutable
@@ -57,7 +56,7 @@ class HomePage extends BaseGetViewV<HomeController> {
 
   @override
   Widget buildPageContent(BuildContext context) {
-    return Center(child: Stack(children: [textButton.build(context),AndroidSdkInstallerExample()]));
+    return Center(child: Stack(children: [textButton.build(context)]));
   }
 
   bool onClose() {
